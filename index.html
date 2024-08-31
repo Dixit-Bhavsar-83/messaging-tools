@@ -1,26 +1,35 @@
 <!DOCTYPE html>
+<!-- saved from url=(0059)file:///C:/Users/HP/OneDrive/Documents/my%20self/index.html -->
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <link rel="stylesheet" href="style.css" />
+
   <body>
-    
     <section class="contact-section">
       <div class="contact-intro">
-        <h2 class="contact-title">Messaging Tool</h2>
+        <h2 class="contact-title">D.B. Messaging tool</h2>
+
         <p class="contact-description">
           Fill out the form below and we'll get back to you as soon as possible.
         </p>
       </div>
 
-      <form id="contact-form" method="POST" action="https://api.web3forms.com/submit">
+      <form
+        id="contact-form"
+        method="POST"
+        action="https://api.web3forms.com/submit"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="f3f35ef4-e1d4-4701-8e8c-7b856d280f76"
+        />
 
-      <input type="hidden" name="access_key" value="f3f35ef4-e1d4-4701-8e8c-7b856d280f76">
-     
-     
         <input
           type="hidden"
           name="subject"
@@ -70,9 +79,7 @@
             ></textarea>
           </div>
         </div>
-       
-         
-          
+
         <button class="form-submit" type="submit">Send Message</button>
       </form>
     </section>
